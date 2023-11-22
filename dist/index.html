@@ -1,0 +1,4 @@
+<!DOCTYPE html><html lang="en"> <head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Document</title><script type="module">document.getElementById("button").addEventListener("click",()=>{fetch("/api").then(async e=>{e.ok?console.log(await e.text()):console.log("bade request")})});
+</script></head> <body>
+hello world
+<button id="button">fetch data</button> </body></html>
